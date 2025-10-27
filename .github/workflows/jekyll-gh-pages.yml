@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南京蘇州8日秋季行</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+            background-color: #f8f7f6; /* Warm neutral background */
+        }
+        [data-tab-content] {
+            display: none;
+        }
+        [data-tab-content].active {
+            display: block;
+        }
+        .tab-btn {
+            transition: all 0.3s ease;
+        }
+        .tab-btn.active {
+            border-color: #0d9488; /* Teal */
+            color: #0d9488;
+            background-color: #ffffff;
+            font-weight: 600;
+        }
+        .tab-btn:hover {
+            background-color: #f1f5f9;
+        }
+    </style>
+</head>
+<body class="antialiased text-stone-800">
+
+    <div class="container mx-auto max-w-4xl p-4 md:p-8">
+        
+        <!-- Header -->
+        <header class="text-center mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-teal-800">南京 & 蘇州 8日秋季精華遊</h1>
+            <p class="text-lg text-stone-600 mt-2">11/28/2025 - 12/05/2025 (三人行)</p>
+        </header>
+
+        <!-- Tab Navigation -->
+        <div class="flex flex-wrap -mb-px border-b border-stone-200" id="tab-container">
+            <button class="tab-btn active text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#prep">行前準備</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day1">Day 1 (11/28)</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day2">Day 2 (11/29)</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day3">Day 3 (11/30)</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day4">Day 4 (12/1)</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day5">Day 5 (12/2)</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day6">Day 6 (12/3)</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day7">Day 7 (12/4)</button>
+            <button class="tab-btn text-sm md:text-base flex-shrink-0 py-3 px-3 md:px-5 border-b-2 border-transparent" data-tab-target="#day8">Day 8 (12/5)</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="bg-white rounded-b-lg shadow-lg p-6 md:p-8">
+
+            <!-- Prep Tab -->
+            <div id="prep" data-tab-content class="active">
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">行前準備 (必看)</h2>
+                
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-stone-700 mb-2">1. 必備手機APP</h3>
+                        <ul class="list-disc list-inside space-y-1 text-stone-600">
+                            <li><strong>支付寶 (Alipay)</strong>: 付款主力。請提前綁定台灣的信用卡 (Visa/Mastercard)。</li>
+                            <li><strong>微信 (WeChat)</strong>: 付款＋溝通。同樣可綁定信用卡。</li>
+                            <li><strong>高德地圖 (Amap)</strong>: 在大陸比 Google Maps 準確100倍，搭地鐵、查公車、導航都靠它。</li>
+                            <li><strong>滴滴出行 (Didi)</strong>: 打車APP (即計程車)，三人出行短途比搭地鐵划算且方便。</li>
+                            <li><strong>攜程 (Ctrip) / Trip.com</strong>: 預訂高鐵票、飯店、景點門票的整合平台。</li>
+                            <li><strong>大眾點評</strong>: 找美食、看評價，大陸版Yelp。</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-semibold text-stone-700 mb-2">2. 門票預訂 (重點)</h3>
+                        <p class="text-stone-600 mb-2">現在大陸所有熱門景點都採「實名制預約」，<strong class="text-red-600">必須提前預訂</strong>，否則現場無法進入。</p>
+                        <ul class="list-disc list-inside space-y-1 text-stone-600">
+                            <li><strong>預訂方式</strong>: 打開「微信」，下拉點「搜一搜」，搜尋景點的「小程序」 (Mini Program) 進行預約。</li>
+                            <li><strong>南京博物院</strong>: <strong class="text-red-600">超級難搶</strong>，需提前7天準時開搶 (通常是晚上6點或8點，請查詢官網)。</li>
+                            <li><strong>蘇州博物館</strong>: 同樣需要提前7天預約。</li>
+                            <li><strong>拙政園 / 留園</strong>: 需提前1-3天預約。</li>
+                            <li><strong>中山陵 / 明孝陵</strong>: 需預約。</li>
+                            <li><strong>大屠殺紀念館</strong>: 免費，但需預約時段 (週一休館)。</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold text-stone-700 mb-2">3. 住宿推薦</h3>
+                        <ul class="list-disc list-inside space-y-1 text-stone-600">
+                            <li><strong>南京 (5晚)</strong>: 推薦住在「夫子廟」或「老門東」附近。交通方便 (地鐵站)，晚上熱鬧，美食多，步行可達景點。</li>
+                            <li><strong>蘇州 (2晚)</strong>: 推薦住在「平江路」或「觀前街」附近。Gusu District 區域，體驗小橋流水，去景點方便。</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold text-stone-700 mb-2">4. 關於「棲霞山」賞楓</h3>
+                        <p class="text-stone-600">我建議<strong class="text-teal-700">不用特地去</strong>。棲霞山在南京郊區，搭車單程1.5小時起跳，非常花時間。11月底12月初，市區「<strong class="text-teal-700">明孝陵的神道 (石象路)</strong>」正值最美的時刻，楓葉、銀杏、櫸木五彩斑斕，景色完全不輸棲霞山，且交通方便。本行程已將賞秋重點放在明孝陵。
+                        </img src="https://placehold.co/600x400/FFF0E5/333333?text=Ming+Xiaoling+Autumn+Colors" alt="明孝陵石象路秋色示意圖" class="w-full rounded-lg shadow-sm mt-2">
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 1 -->
+            <div id="day1" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 1 (11/28 五): 抵達南京，夜泊秦淮</h2>
+                <div class="space-y-4">
+                    <p class="text-lg text-stone-600"><strong>主題:</strong> 抵達與適應，初探老城南與秦淮河夜景。</p>
+                    <ul class="list-none space-y-4">
+                        <li><strong>下午 (14:00)</strong>: 抵達南京祿口機場 (MU2946)。</li>
+                        <li><strong>下午 (16:00)</strong>: 搭車前往市區飯店 (夫子廟/老門東區域) Check-in。</li>
+                        <li><strong>傍晚 (17:30)</strong>: 步行至「老門東」逛逛，欣賞古色古香的牌坊與建築，順便吃晚餐。</li>
+                        <li><strong>晚上 (19:30)</strong>: 步行至「夫子廟」，感受江南貢院的書卷氣，欣賞「秦淮河夜景」，可考慮搭乘畫舫夜遊。</li>
+                    </ul>
+                    <div>
+                        <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通</h3>
+                        <ul class="list-disc list-inside text-stone-600">
+                            <li>機場 -> 市區: 地鐵 S1 號線轉 3 號線 (約70分鐘) 或直接「滴滴」打車 (3人分攤划算，約40-50分鐘)。</li>
+                            <li>本日景點皆可步行。</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                        <ul class="list-disc list-inside text-stone-600">
+                            <li><strong>老門東</strong>: 蔣有記鍋貼、雞鳴湯包、陸氏梅花糕、藍老大糖粥藕。</li>
+                            <li><strong>夫子廟</strong>: 蓮湖糕團店、秦淮八絕小吃。</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">雨天備案</h3>
+                        <p class="text-stone-600">老門東與夫子廟皆有許多室內小店、星巴克與商場可逛，影響不大。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2 -->
+            <div id="day2" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 2 (11/29 六): 鐘山風雲 (賞秋重點)</h2>
+                <p class="text-lg text-stone-600"><strong>主題:</strong> 鐘山風景區一日遊，本日是賞秋精華。</p>
+                <ul class="list-none space-y-4 mt-4">
+                    <li><strong>上午 (09:00)</strong>: 前往「明孝陵」。重點逛「石象路」，這裡是南京最美的賞秋大道，11月底正值巔峰。</li>
+                    <li><strong>中午</strong>: 景區內簡單用餐或自備乾糧。</li>
+                    <li><strong>下午 (13:30)</strong>: 參觀「中山陵」(需預約，免費)，瞻仰孫中山先生陵寢 (需爬392層台階)。</li>
+                    <li><strong>傍晚 (16:30)</strong>: 行有餘力可逛「美齡宮」(在明孝陵與中山陵之間)。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>市區 -> 景區: 地鐵 2 號線至「苜蓿園站」(近明孝陵) 或「下馬坊站」(近中山陵)。</li>
+                    <li>景區內: 範圍極大，請善用景區觀光小火車 (付費)，串聯各景點。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>鐘山風景區內餐飲選擇少且貴，建議自備乾糧和水。</li>
+                    <li>晚餐回市區「新街口」或「夫子廟」享用大餐。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">雨天備案</h3>
+                <p class="text-stone-600">雨天賞秋色較不便，若遇大雨，可考慮將本日行程與 Day 3 (南京博物院) 對調。</p>
+            </div>
+
+            <!-- Day 3 -->
+            <div id="day3" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 3 (11/30 日): 歷史與悠閒</h2>
+                <p class="text-lg text-stone-600"><strong>主題:</strong> 博物館深度遊與古城牆湖畔漫步。</p>
+                <ul class="list-none space-y-4 mt-4">
+                    <li><strong>上午 (09:00)</strong>: 參觀「南京博物院」(中國三大博物館之一，<strong class="text-red-600">務必提前搶票</strong>)。預留至少 3-4 小時。</li>
+                    <li><strong>中午</strong>: 博物院內或附近用餐。</li>
+                    <li><strong>下午 (14:30)</strong>: 前往「雞鳴寺」參拜，南京最古老的佛寺之一。</li>
+                    <li><strong>傍晚 (16:00)</strong>: 從雞鳴寺登上「明城牆 (台城段)」，俯瞰「玄武湖」的日落與湖景，風景絕佳。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>市區 -> 博物院: 地鐵 2 號線至「明故宮站」。</li>
+                    <li>博物院 -> 雞鳴寺: 地鐵 3 號線「大行宮站」轉 4 號線至「雞鳴寺站」。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li><strong>雞鳴寺</strong>: 必吃「雞鳴寺素齋麵」，便宜又好吃。</li>
+                    <li><strong>晚餐</strong>: 可至附近的「獅子橋美食街」或「新街口」區域。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">雨天備案</h3>
+                <p class="text-stone-600">南京博物院本身就是最佳雨天備案，可待上一整天。若雨大，下午可取消城牆與玄武湖。</li>
+            </div>
+
+            <!-- Day 4 -->
+            <div id="day4" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 4 (12/1 一): 現代與莊嚴</h2>
+                <p class="text-lg text-stone-600"><strong>主題:</strong> 震撼的現代佛教藝術與民國建築風情。</p>
+                <ul class="list-none space-y-4 mt-4">
+                    <li><strong>上午 (09:30)</strong>: 前往「牛首山文化旅遊區」。(原計畫的棲霞山取消，改為此景點，非常壯觀)。</li>
+                    <li><strong>中午</strong>: 參觀地下的佛頂宮，極其震撼，可在此避暑/避寒並用餐。</li>
+                    <li><strong>下午 (15:00)</strong>: 返回市區，前往「頤和路」公館區。這裡有最美的民國別墅群，秋天梧桐葉落，非常適合散步拍照。</li>
+                    <li><strong>傍晚 (17:00)</strong>: 逛逛「先鋒書店 (五台山總店)」，由地下停車場改建，被譽為中國最美書店。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>市區 -> 牛首山: 地鐵 S1 號線至「佛城西路站」再轉公車或打車。建議3人直接「滴滴」打車前往 (約45分鐘)。</li>
+                    <li>牛首山 -> 頤和路: 打車 (較遠) 或公車轉地鐵。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li><strong>牛首山</strong>: 景區內有素齋自助餐或小吃街。</li>
+                    <li><strong>頤和路/先鋒</strong>: 附近南京大學周邊有許多咖啡廳與平價美食。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">雨天備案</h3>
+                <p class="text-stone-600">牛首山佛頂宮幾乎全在室內，是絕佳雨天備案。先鋒書店亦在室內。</p>
+            </div>
+
+            <!-- Day 5 -->
+            <div id="day5" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 5 (12/2 二): 銘記與告別</h2>
+                <p class="text-lg text-stone-600"><strong>主題:</strong> 沉重的歷史反思，下午輕鬆調整。</p>
+                <ul class="list-none space-y-4 mt-4">
+                    <li><strong>上午 (09:00)</strong>: 參觀「侵華日軍南京大屠殺遇難同胞紀念館」(<strong class="text-red-600">週一休館</strong>，需預約)。心情會較沉重，建議預留2-3小時。</li>
+                    <li><strong>中午</strong>: 附近用餐，平復心情。</li>
+                    <li><strong>下午</strong>: 輕鬆行程。可至「新街口」商圈逛街購物，或去「南京市博物館 (朝天宮)」(若對歷史有興趣)。</li>
+                    <li><strong>傍晚</strong>: 整理行李，準備隔天前往蘇州。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>市區 -> 紀念館: 地鐵 2 號線至「雲錦路站」。</li>
+                    <li>紀念館 -> 新街口: 地鐵 2 號線直達。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li><strong>新街口</strong>: 美食一級戰區。推薦「南京大排檔」(一次吃遍南京小吃)、「芳婆糕團店」。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">雨天備案</h3>
+                <p class="text-stone-600">紀念館和新街口商場均為室內行程。</p>
+            </div>
+
+            <!-- Day 6 -->
+            <div id="day6" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 6 (12/3 三): 雙城記 - 蘇州園林</h2>
+                <p class="text-lg text-stone-600"><strong>主題:</strong> 告別南京，投入蘇州的園林懷抱。</p>
+                <ul class="list-none space-y-4 mt-4">
+                    <li><strong>上午 (09:00)</strong>: 早餐後搭車前往「南京南站」。</li>
+                    <li><strong>上午 (10:00)</strong>: 搭乘高鐵前往「蘇州站」(車程約 1-1.5 小時)。</li>
+                    <li><strong>中午 (12:00)</strong>: 抵達蘇州，搭車前往飯店 (平江路/觀前街區域) Check-in。</li>
+                    <li><strong>下午 (14:00)</strong>: 參觀「拙政園」(中國四大名園之首，<strong class="text-red-600">需預約</strong>)。</li>
+                    <li><strong>傍晚 (16:00)</strong>: 參觀「蘇州博物館」(貝聿銘設計，<strong class="text-red-600">需預約</strong>)，就在拙政園隔壁。</li>
+                    <li><strong>晚上</strong>: 漫步「平江路」，體驗小橋流水人家的夜景。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>南京市區 -> 南京南站: 地鐵 3 號線或打車。</li>
+                    <li>蘇州站 -> 飯店: 地鐵 4 號線或打車。</li>
+                    <li>景點間: 拙政園與蘇博步行可達。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li><strong>平江路</strong>: 雞腳、桂花糕、海棠糕等小吃。</li>
+                    <li><strong>晚餐</strong>: 推薦「松鶴樓」(蘇幫菜名店，松鼠鱖魚) 或「啞巴生煎」。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">雨天備案</h3>
+                <p class="text-stone-600">蘇州博物館為室內。雨中逛園林 (拙政園) 別有風味，影響不大。</p>
+            </div>
+
+            <!-- Day 7 -->
+            <div id="day7" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 7 (12/4 四): 姑蘇城外</h2>
+                <p class="text-lg text-stone-600"><strong>主題:</strong> 經典園林與千年古街。</p>
+                <ul class="list-none space-y-4 mt-4">
+                    <li><strong>上午 (09:00)</strong>: 參觀「留園」(另一四大名園，建築精美) 或「虎丘」(蘇東坡說"到蘇州不遊虎丘，乃憾事也")。二選一。</li>
+                    <li><strong>中午</strong>: 附近用餐。</li>
+                    <li><strong>下午 (14:00)</strong>: 前往「寒山寺」，體驗「夜半鐘聲到客船」的意境。</li>
+                    <li><strong>傍晚 (16:00)</strong>: 前往「山塘街」，比平江路更商業化，但夜景燈籠非常上鏡。</li>
+                    <li><strong>晚上</strong>: 可至「觀前街」逛街，蘇州的"南京新街口"。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>景點間距離較遠，建議善用「滴滴」打車。</li>
+                    <li>山塘街可搭地鐵 2 號線至「山塘街站」。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li><strong>山塘街</strong>: 各式蘇式小吃。</li>
+                    <li><strong>觀前街</strong>: 陸稿薦滷味、采芝齋糖果。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">雨天備案</h3>
+                <p class="text-stone-600">可改為參觀「蘇州絲綢博物館」或「誠品書店」(在金雞湖，較遠)。</p>
+            </div>
+
+            <!-- Day 8 -->
+            <div id="day8" data-tab-content>
+                <h2 class="text-2xl font-bold text-teal-700 mb-4">Day 8 (12/5 五): 蘇州漫步 -> 上海返程</h2>
+                <p class="text-lg text-stone-600"><strong>主題:</strong> 最後巡禮，啟程回家。</p>
+                <ul class="list-none space-y-4 mt-4">
+                    <li><strong>上午</strong>: 自由活動。可在平江路最後漫步，或去「網師園」(小而精美的夜花園)。</li>
+                    <li><strong>中午 (12:00)</strong>: 飯店 Check-out，享用在蘇州的最後一餐。</li>
+                    <li><strong>下午 (13:30)</strong>: 啟程前往「上海浦東機場 (PVG)」。</li>
+                    <li><strong>傍晚 (17:30)</strong>: 抵達 PVG 機場，辦理登機手續。</li>
+                    <li><strong>晚上 (20:05)</strong>: 長榮航空 BR705 起飛，返回高雄 (22:20 抵達)。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">交通 (蘇州 -> 浦東機場)</h3>
+                <p class="text-stone-600 mb-2"><strong class="text-red-600">重要：</strong>需預留至少 4 小時交通時間。</p>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li><strong>方案一 (最推薦)</strong>: 從蘇州搭「機場直達大巴」。在「蘇州高鐵站北廣場客運站」有直達浦東機場的大巴，車程約 2.5 - 3 小時。最省事。</li>
+                    <li><strong>方案二 (高鐵+地鐵)</strong>:
+                        <br>1. (滴滴) 飯店 -> 蘇州站
+                        <br>2. (高鐵) 蘇州站 -> 上海虹橋站 (約 30 分鐘)
+                        <br>3. (地鐵) 上海虹橋站 -> 浦東機場 (地鐵 2 號線，<strong class="text-red-600">需時 90-120 分鐘</strong>)
+                        <br>此方案需不斷換乘，但時間可控。</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-teal-700 mt-4 mb-2">美食推薦</h3>
+                <ul class="list-disc list-inside text-stone-600">
+                    <li>早餐：品嘗蘇式麵館，如「同得興」的楓鎮大肉麵。</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabs = document.querySelectorAll('[data-tab-target]');
+            const tabContents = document.querySelectorAll('[data-tab-content]');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = document.querySelector(tab.dataset.tabTarget);
+
+                    tabContents.forEach(content => {
+                        content.classList.remove('active');
+                    });
+                    tabs.forEach(t => {
+                        t.classList.remove('active');
+                    });
+
+                    tab.classList.add('active');
+                    target.classList.add('active');
+                });
+            });
+
+            // Activate the first tab by default
+            if (tabs.length > 0) {
+                tabs[0].classList.add('active');
+                document.querySelector(tabs[0].dataset.tabTarget).classList.add('active');
+            }
+        });
+    </script>
+
+</body>
+</html>
