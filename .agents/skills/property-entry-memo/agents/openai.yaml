@@ -1,0 +1,6 @@
+interface:
+  display_name: "基金工程財產入帳"
+  short_description: "逐筆判斷工程財產新增或增值、核對經費與附件，協助製單及簽辦"
+  default_prompt: "請用 $property-entry-memo 先檢視本案附件，提出逐筆入帳及製單建議、缺件與逐碼經費核對；待我明確要求後再整理附件和寫簽。"
+policy:
+  allow_implicit_invocation: true
