@@ -20,12 +20,12 @@ description: 檢視航港建設基金工程財產新增或增值案件，將掃�
 
 | 步驟 | 做什麼 | 必讀附錄 |
 | :--- | :--- | :--- |
-| 開始前 | 依案型找最接近的標竿案例，打開其總表當格式範本（只學結構，不抄金額或工程名稱） | [references/local-examples.md](references/local-examples.md) |
+| 開始前 | 先依案型判別並選最接近的 1 個標竿案例（複合案型可組讀 2～3 案，不 5 案全開）；第一階段先看摘要，第二階段寫簽出圖再讀其總表全文（只學結構，不抄金額或工程名稱） | [references/local-examples.md](references/local-examples.md) |
 | 1-1 盤點 | PDF 雙軌讀取（文字型直接取字／掃描型 OCR）、應備文件清單 (1)–(8)、(A)–(C) | [references/checklist.md](references/checklist.md) |
 | 1-2 診斷 | 基金支應合規性、港務公司拆帳清晰度、資產定位、未完工程逐碼 `C − D ＝ E` | [references/fund-review.md](references/fund-review.md) |
 | 1-3 製單指引 | 動產增加單（方案 A 按場站合併成套）vs. 不動產增減值單；步驟 0–5 製單表＋未完工程對帳表 | [references/form-guide.md](references/form-guide.md) 第一節 |
 | 過渡 驗算 | `原價 ± 本次 ＝ 新價`、日期、基金代號、同財編多批驗收 | [references/form-guide.md](references/form-guide.md) 第二節 |
-| 2-1 整理附件 | 建 `簽辦附件整理` 夾、檔名五大鐵律、未完工程 Excel 轉 `.jpg` 核對圖 | [references/naming-rules.md](references/naming-rules.md) |
+| 2-1 整理附件 | 建 `簽辦附件整理` 夾、檔名五大原則、未完工程 Excel 轉 `.jpg` 核對圖 | [references/naming-rules.md](references/naming-rules.md) |
 | 2-2 總表 | 單一 `00_案件簽辦與審核總表.md` 五大區塊 | [references/summary-template.md](references/summary-template.md) |
 | 2-3 寫簽 | 簽／綜簽型態、國字億萬、去 AI 感、附件標註、差額交代 | [references/writing-style.md](references/writing-style.md) |
 | 2-4 對照圖 | 三欄「左對帳／中依據／右入帳」，卡對卡箭頭；先看標竿圖 | [references/diagram-spec.md](references/diagram-spec.md)、[references/diagram-benchmark-S1S3.jpg](references/diagram-benchmark-S1S3.jpg) |
